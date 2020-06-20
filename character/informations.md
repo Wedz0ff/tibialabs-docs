@@ -22,7 +22,7 @@ Character: Wedzy - Level: 1378 - Vocation: Master Sorcerer - World: Belobra - Gu
 !addcom !charinfo $(urlfetch https://api.tibialabs.com/v1/charinfo/$(querystring))
 ```
 
-## StreamElements
+### StreamElements
 
 ```
 $(customapi.https://api.tibialabs.com/v1/charinfo/${queryescape ${1:}})

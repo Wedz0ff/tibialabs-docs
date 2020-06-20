@@ -16,10 +16,18 @@ If **city** is passed, it's going to return only city's name.
 Carlin
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
 !addcom !rashid $(urlfetch https://api.tibialabs.com/v1/rashid)
+```
+
+### StreamElements
+
+```
+$(customapi.https://api.tibialabs.com/v1/rashid)
 ```
 
 #### Testing case

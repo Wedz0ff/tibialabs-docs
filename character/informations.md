@@ -14,10 +14,18 @@ Display some informations about a specific character.
 Character: Wedzy - Level: 1378 - Vocation: Master Sorcerer - World: Belobra - Guild: Rangers
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
 !addcom !charinfo $(urlfetch https://api.tibialabs.com/v1/charinfo/$(querystring))
+```
+
+## StreamElements
+
+```
+$(customapi.https://api.tibialabs.com/v1/charinfo/${queryescape ${1:}})
 ```
 
 #### Testing case

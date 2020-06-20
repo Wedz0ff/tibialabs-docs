@@ -10,10 +10,18 @@ Display which character lost most experience yesterday.
 Doc Silvershine was worst exp. yesterday, he lost 125.595.933 experience points. Info by: TibiaFrags.com
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
 !addcom !worstxp $(urlfetch https://api.tibialabs.com/v1/worstxp)
+```
+
+### StreamElements
+
+```
+$(customapi.https://api.tibialabs.com/v1/worstxp)
 ```
 
 #### Testing case

@@ -16,10 +16,18 @@ If **name** is passed, it's going to return only creature's name.
 Wolf
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
 !addcom !boostedcreature $(urlfetch https://api.tibialabs.com/v1/boostedcreature)
+```
+
+### StreamElements
+
+```
+$(customapi.https://api.tibialabs.com/v1/boostedcreature)
 ```
 
 #### Testing case

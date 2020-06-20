@@ -14,10 +14,18 @@ Display some informations about a specific guild.
 Red Rose (World: Antica - Avg Level: 145) has 3/123 members online right now. This guild was founded on Feb 18 2002.
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
-!addcom !guildinfo $(urlfetch https://api.tibialabs.com/v1/guildinfo/$(querystring))
+!addcom !charinfo $(urlfetch https://api.tibialabs.com/v1/guildinfo/$(querystring))
+```
+
+## StreamElements
+
+```
+$(customapi.https://api.tibialabs.com/v1/guildinfo/${queryescape ${1:}})
 ```
 
 #### Testing case

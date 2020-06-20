@@ -18,10 +18,18 @@ Informations are gathered from [TibiaWiki](https://tibia.fandom.com/wiki/Dream_S
 Maxxenius
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
 !addcom !dreamscar $(urlfetch https://api.tibialabs.com/v1/dreamscar)
+```
+
+### StreamElements
+
+```
+$(customapi.https://api.tibialabs.com/v1/dreamscar)
 ```
 
 #### Testing case

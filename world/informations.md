@@ -24,10 +24,16 @@ There are currently 934 players online on Belobra.
 There are currently 33080 players online on Tibia.
 ```
 
-## NightBot Integration
+## Integration
+
+### NightBot
 
 ```
 !addcom !worldinfo $(urlfetch https://api.tibialabs.com/v1/worldinfo/$(querystring))
+```
+
+```
+$(customapi.https://api.tibialabs.com/v1/worldinfo/${queryescape ${1:}})
 ```
 
 #### Testing case

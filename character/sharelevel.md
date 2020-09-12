@@ -1,4 +1,4 @@
-# Share Level
+# Level to Share Exp
 
 Display which levels can a character share experience.
 
@@ -6,7 +6,7 @@ Display which levels can a character share experience.
 
 #### Example URL
 
-``https://api.tibialabs.com/v1/sharelevel/200`
+``https://api.tibialabs.com/v1/sharelevel/200``
 
 #### Output example
 
